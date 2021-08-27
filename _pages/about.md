@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,6 +8,17 @@ redirect_from:
   - /about.html
 ---
 
+
+Brief Background
+
+:   My name is Jacob Dineen - Jake for short - and I am a second year PhD student in the Department of Computer Science at the University of Virginia (UVa). I hold a BS in Economics and Finance from Grand Canyon University (GCU), a MS in Data Science from Syracuse University (SU), and am concurrently pursuing my MSc/PhD in Computer Science from UVa. I am passionate about all things related to Machine Learning & Deep Learning, but have focused mainly on eXplainable Artificial Intelligence and Multi-agent Systems academically, and Recommender Systems professionally. If interested, please reach out to me via one of the methods noted to the left (email/linkedin).
+
+
+Hobbies and Interests
+:   I am an avid sports fan and am basking in the Sun's recent success (2021). In my spare time, I'm usually planning trips to explore the world with my girlfriend, memorizing IMDB catalogues, tinkering with my computers or speakers, or finding some way to be active in the Arizona heat.
+
+
+<!-- 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
 A data-driven personal website
@@ -47,4 +58,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
