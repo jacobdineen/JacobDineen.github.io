@@ -9,8 +9,9 @@ main:
   - title: "Courses"
     url: /courses/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+#TODO finish portfolio
+  # - title: "Portfolio"
+  #   url: /portfolio/
         
   # - title: "Blog Posts"
   #   url: /timeline/
