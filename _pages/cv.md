@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 <html>
 <body>
-    <embed src="/files/pdf/files/pdf/JacobDineen_Resume_Academic_1.pdf" width="500" height="375">
+    <embed src="/files/pdf/JacobDineen_Resume_Academic_1.pdf" width="500" height="375">
 </body>
 </html>
 
