@@ -14,5 +14,5 @@ redirect_from:
 </body>
 </html>
 
-*You can download a PDF copy of my CV [here](/files/pdf/CV.pdf).*
+*You can download a PDF copy of my CV [here](/files/pdf/JacobDineen_Resume_Academic_1.pdf).*
 
