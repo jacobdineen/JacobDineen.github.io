@@ -11,7 +11,7 @@ redirect_from:
 
 ## Brief Background
 
-My name is Jacob Dineen - Jake for short - and I am a second year PhD student in the Department of Computer Science at the University of Virginia (UVa). I hold a BS in Economics and Finance from Grand Canyon University (GCU), a MS in Data Science from Syracuse University (SU), and am concurrently pursuing my MSc/PhD in Computer Science from UVa. I am passionate about all things related to Machine Learning & Deep Learning, but have focused mainly on [eXplainable Artificial Intelligence](https://en.wikipedia.org/wiki/Explainable_artificial_intelligence) and [Multi-agent Systems](https://en.wikipedia.org/wiki/Multi-agent_system) academically, and [Recommender Systems](https://en.wikipedia.org/wiki/Recommender_system) professionally. If interested, please reach out to me via one of the methods noted to the left (email/linkedin).
+My name is Jacob Dineen - Jake for short - and I am a second year PhD student in the Department of Computer Science at the University of Virginia (UVa). I hold a BS in Economics and Finance from Grand Canyon University (GCU), a MS in Data Science from Syracuse University (SU), and am concurrently pursuing my MSc/PhD in Computer Science from UVa. I am passionate about all things related to Machine Learning & Deep Learning, but have focused mainly on [eXplainable Artificial Intelligence](https://en.wikipedia.org/wiki/Explainable_artificial_intelligence) and [Multi-agent Systems](https://en.wikipedia.org/wiki/Multi-agent_system) academically, and [Recommender Systems](https://en.wikipedia.org/wiki/Recommender_system) professionally. If interested, please reach out to me via one of the methods noted to the left (email/linkedin)..
 
 ## Education
 
