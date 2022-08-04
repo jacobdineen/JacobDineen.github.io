@@ -10,9 +10,8 @@ redirect_from:
 {% include base_path %}
 <html>
 <body>
-    <embed src="/files/pdf/JD_academic.pdf)" width="500" height="375">
+    <embed src="/files/pdf/Academic_Resume.pdf" width="500" height="375">
 </body>
 </html>
 
-*You can download a PDF copy of my CV [here](./files/pdf/JD_academic.pdf).*
-
+*You can download a PDF copy of my CV [here](/files/pdf/Academic_Resume.pdf).*

@@ -11,7 +11,8 @@ redirect_from:
 
 ## Brief Background
 
-My name is Jacob Dineen - Jake for short - and I am a second year PhD student in the Department of Computer Science at the University of Virginia (UVa). I hold a BS in Economics and Finance from Grand Canyon University (GCU), a MS in Data Science from Syracuse University (SU), and am concurrently pursuing my MSc/PhD in Computer Science from UVa. I am passionate about all things related to Machine Learning & Deep Learning, but have focused mainly on [eXplainable Artificial Intelligence](https://en.wikipedia.org/wiki/Explainable_artificial_intelligence) and [Multi-agent Systems](https://en.wikipedia.org/wiki/Multi-agent_system) academically, and [Recommender Systems](https://en.wikipedia.org/wiki/Recommender_system) professionally. If interested, please reach out to me via one of the methods noted to the left (email/linkedin)..
+My name is Jacob Dineen & I am PhD Student at Arizona State University.
+ I am passionate about all things related to Machine Learning & Deep Learning, but have focused mainly on [eXplainable Artificial Intelligence](https://en.wikipedia.org/wiki/Explainable_artificial_intelligence) and [Multi-agent Systems](https://en.wikipedia.org/wiki/Multi-agent_system) academically, and [Recommender Systems](https://en.wikipedia.org/wiki/Recommender_system) professionally. If interested, please reach out to me via one of the methods noted to the left (email/linkedin)..
 
 ## Education
 
@@ -19,8 +20,8 @@ Please find my education history below. For more details on specific graduate le
 
 | Time                          | Degree                                                | Grade |
 | ----------------------------- | ----------------------------------------------------- | ----- |
-| August 2019- Present          | PhD Computer Science – University of Virginia (2024)  | 4     |
-| August 2019- May 2021         | M.S. Computer Science – University of Virginia (2021) | 4     |
+| August 2022- Present          | PhD Computer Science – Arizona State University       |       |
+| August 2019- May 2021         | M.S. Computer Science – University of Virginia (2021) | 3.95  |
 | January 2017 – September 2018 | M.S. Data Science – Syracuse University               | 4     |
 | August 2012 – December 2015   | B.S. Finance and Economics – Grand Canyon University  | 3.65  |
 
@@ -32,9 +33,9 @@ I am an avid sports fan and am basking in the Sun's recent success (2021). In my
 ## My Life in a Few Pictures
 
 |:-------------------------:|:-------------------------:|:-------------------------:|
-|<img width="1604" src="/images/about_me_gallery/6.jpg"> |  <img width="1604"  src="/images/about_me_gallery/2.jpg">|<img width="1604"  src="/images/about_me_gallery/3.jpg">|
+|<img width="1604" src="/images/about_me_gallery/9.jpg"> |  <img width="1604"  src="/images/about_me_gallery/2.jpg">|<img width="1604"  src="/images/about_me_gallery/3.jpg">|
 |<img width="1604"  src="/images/about_me_gallery/4.jpg">  |  <img width="1604"  src="/images/about_me_gallery/5.jpg">|<img width="1604"  src="/images/about_me_gallery/1.jpg">|
-|<img width="1604" src="/images/about_me_gallery/7.jpg">  |  <img width="1604"  src="/images/about_me_gallery/8.jpg">|<img width="1604"  src="/images/about_me_gallery/9.jpg">|
+|<img width="1604" src="/images/about_me_gallery/7.jpg">  |  <img width="1604"  src="/images/about_me_gallery/8.jpg">|<img width="1604"  src="/images/about_me_gallery/6.jpg">|
 
 <!-- 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).

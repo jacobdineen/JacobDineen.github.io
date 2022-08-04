@@ -5,7 +5,7 @@ permalink: /courses/
 author_profile: true
 ---
 
-Here I summarize graduate level coursework that I have completed.
+I have completed the following graduate courses as of August 2022, with plans to take more at ASU.
 
 | School | Course | Grade | Project |
 |:--------:|:--------:|:---------:|:---------:|
