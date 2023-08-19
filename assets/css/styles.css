@@ -1,0 +1,31 @@
+.scrollable-table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 800px; /* Adjust as needed */
+  }
+  
+  .scrollable-table thead {
+    display: table;
+    width: 100%;
+    table-layout: fixed; /* To make sure the header fits the body width */
+  }
+  
+  .scrollable-table tbody {
+    display: block;
+    overflow-y: auto;
+    max-height: 240px; /* Adjust as needed */
+  }
+  
+  .scrollable-table tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  /* Optional: add styling to the header cells */
+  .scrollable-table th {
+    background-color: #f2f2f2;
+  }
+  
