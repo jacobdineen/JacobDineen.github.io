@@ -1,34 +1,66 @@
 .scrollable-table {
-    display: block;
-    width: 100%;
-    overflow-x: auto;
-    overflow-y: auto;
-    height: 800px; /* Adjust as needed */
-  }
-  
-  .scrollable-table thead {
-    display: table;
-    width: 100%;
-    table-layout: fixed; /* To make sure the header fits the body width */
-  }
-  
-  .scrollable-table tbody {
-    display: block;
-    overflow-y: auto;
-    max-height: 240px; /* Adjust as needed */
-  }
-  
-  .scrollable-table tr {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
-  }
-  
-  /* Optional: add styling to the header cells */
-  .scrollable-table th {
-    background-color: #f2f2f2;
-  }
-  
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+  height: 800px; /* Adjust as needed */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.scrollable-table thead {
+  display: table;
+  width: 100%;
+  table-layout: fixed; /* To make sure the header fits the body width */
+  font-weight: bold; /* Bold header text */
+}
+
+.scrollable-table tbody {
+  display: block;
+  overflow-y: auto;
+  max-height: 800px; /* Adjust as needed */
+}
+
+.scrollable-table tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.scrollable-table th {
+  background-color: #1a75ff; /* Change this color */
+  color: white; /* White header text */
+}
+
+.scrollable-table td {
+  padding: 10px; /* Spacing inside cells */
+  text-align: left; /* Alignment */
+  border-bottom: 1px solid #eaeaea; /* Subtle borders */
+}
+
+.scrollable-table th {
+  background-color: #4CAF50; /* Darker header background */
+  color: white; /* White header text */
+}
+
+.scrollable-table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Alternating row colors */
+}
+
+.scrollable-table tr:hover {
+  background-color: #f5f5f5; /* Hover effect */
+}
+
+/* Additional styling for links and images */
+.scrollable-table a {
+  color: #4CAF50; /* Link color matching header */
+}
+
+.scrollable-table img {
+  height: 16px;
+  width: 16px;
+  margin-left: 5px; /* Space between text and image */
+}
 
   * {box-sizing:border-box}
 
@@ -119,4 +151,31 @@
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+  }
+
+  .hover-box {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 250px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 100;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .hover-box:before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #fff;
   }

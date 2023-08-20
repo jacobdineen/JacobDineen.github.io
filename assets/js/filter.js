@@ -23,3 +23,24 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   });
+
+  document.addEventListener("DOMContentLoaded", function () {
+    var table = document.querySelector('.scrollable-table table');
+    var hoverBox = document.getElementById('hover-box');
+
+    table.addEventListener('mouseover', function (e) {
+      if (e.target.tagName === 'TD') {
+        var description = e.target.getAttribute('data-description');
+        if (description) {
+          hoverBox.innerHTML = description;
+          hoverBox.style.display = 'block';
+          hoverBox.style.left = (e.clientX + 20) + 'px';
+          hoverBox.style.top = (e.clientY + 20) + 'px';
+        }
+      }
+    });
+
+    table.addEventListener('mouseout', function () {
+      hoverBox.style.display = 'none';
+    });
+  });
