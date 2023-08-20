@@ -22,7 +22,15 @@ I have completed the following graduate courses as of August 2023.
     <table>
       <thead>
         <tr>
-          <th>School</th><th>Course</th><th>Grade</th><th>Project</th>
+            <thead>
+                <tr>
+                  <th>School<input type="text" class="filter" data-column="0"></th>
+                  <th>Course<input type="text" class="filter" data-column="1"></th>
+                  <th>Grade<input type="text" class="filter" data-column="2"></th>
+                  <th>Project<input type="text" class="filter" data-column="3"></th>
+                </tr>
+              </thead>
+              
         </tr>
       </thead>
       <tbody>
@@ -57,3 +65,33 @@ I have completed the following graduate courses as of August 2023.
   </div>
 </body>
 </html>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all the filter input elements
+      const filters = document.querySelectorAll('.filter');
+  
+      // Add an event listener to each filter input
+      filters.forEach(filter => {
+        filter.addEventListener('input', (e) => {
+          const column = e.target.dataset.column; // Get the column number from data-column attribute
+          const value = e.target.value.toLowerCase(); // Get the value from the input
+  
+          // Get all the table rows
+          const rows = document.querySelectorAll('tbody tr');
+  
+          // Show or hide rows based on the filter value
+          rows.forEach(row => {
+            const cell = row.cells[column].innerText.toLowerCase(); // Get the text from the cell in the filtered column
+            if (cell.includes(value)) {
+              row.style.display = ''; // Show row if the cell text includes the filter value
+            } else {
+              row.style.display = 'none'; // Hide row if the cell text does not include the filter value
+            }
+          });
+        });
+      });
+    });
+  </script>
+  

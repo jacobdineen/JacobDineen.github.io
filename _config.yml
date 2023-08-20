@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jacob (Jake) Dineen"
+title                    : "Jacob Dineen"
 title_separator          : "-"
 name                     : &name "Jacob Dineen"
 description              : &description "personal description"
@@ -84,12 +84,12 @@ author:
   avatar           :  profilepic.jpg
   bio              : "Please find some of my corresponding information below."
   location         : "Phoenix, Arizona"
-  employer         : "Capital One"
+  employer         : "Arizona State University"
   googlescholar    : "https://scholar.google.com/citations?hl=en&authuser=2&user=WKurvcoAAAAJ"
-  email            : "jd5ed@virginia.edu"
+  email            : "jdineen@asu.edu"
   researchgate     : "https://www.researchgate.net/profile/Jacob-Dineen"
   github           : "jacobdineen"
-  linkedin         : "/jacobdineen/"
+  linkedin         : "jacobdineen/"
 
 
 # Reading Files
