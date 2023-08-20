@@ -30,7 +30,7 @@ I have completed the following graduate courses as of August 2023.
                   <th>Project<input type="text" class="filter" data-column="3"></th>
                 </tr>
               </thead>
-              
+
         </tr>
       </thead>
       <tbody>
@@ -53,9 +53,9 @@ I have completed the following graduate courses as of August 2023.
         <tr><td>Syracuse University</td><td>Business Analytics</td><td>A</td><td><a href="https://github.com/jacobdineen/syracuse/tree/master/Business%20Analytics/Homeworks">R programming for generalized linear models and nonlinear models</a></td></tr>
         <tr><td>Syracuse University</td><td>Financial Analytics</td><td>A</td><td><a href="https://github.com/jacobdineen/syracuse/tree/master/Financial%20Analytics-%20Fin%20654/FinalProject">Created interactive financial forecasting dashboards using Rshiny and flexdashboard for portfolio optimization and forecasts.</a></td></tr>
         <tr><td>Syracuse University</td><td>Marketing Analytics</td><td>A</td><td><a href="https://github.com/jacobdineen/syracuse/tree/master/Marketing%20Analytics/Final%20Project">Collaborative Filtering and Recommendation System Project</a></td></tr>
-        <tr><td>Syracuse University</td><td>Advanced Information Systems</td><td>A</td><td><a href="https://github.com/jacobdineen/syracuse/tree/master/Advanced%20Info%20Analytics-%20IST%20718/Homework/Project">Facial Detection and Recognition using CNNs and MLPs over live stream</a></td></tr>
+        <tr><td>Syracuse University</td><td>Advanced Information Systems</td><td>A</td><td><a href="https://github.com/jacobdineen/syracuse/tree/master/Advanced%20Info%20Analytics-%20IST%20718/Homework/Project">Facial Detection and Recognition using CNNs and MLPs</a></td></tr>
         <tr><td>Syracuse University</td><td>Data Science</td><td>A</td><td><a href="https://github.com/jacobdineen/syracuse/tree/master/IST%20687%20Applied%20Data%20Science/Project/Final">Predictive Modeling Centered around Net Promoter Score for a Hotel Chain</a></td></tr>
-        <tr><td>Syracuse University</td><td>Data Warehousing</td><td>A</td><td><a href="https://github.com/jacobdineen/syracuse/tree/master/IST%20722%20Data%20Warehouse/Project">Built a Data Warehouse and Business Intelligence (DW/BI) solution for Fudgemart, Inc., a fictitious conglomerate with two subsidiary companies.</a></td></tr>
+        <tr><td>Syracuse University</td><td>Data Warehousing</td><td>A</td><td><a href="https://github.com/jacobdineen/syracuse/tree/master/IST%20722%20Data%20Warehouse/Project">Built a Data Warehouse and Business Intelligence (DW/BI) solution</a></td></tr>
         <tr><td>Syracuse University</td><td>Text Mining</td><td>A</td><td><a href="https://github.com/jacobdineen/syracuse/tree/master/Text%20Mining/FP_TM">Explored Part of Speech Tagging under an Information Theoretic Setting</a></td></tr>
         <tr><td>Syracuse University</td><td>Scripting for Data Analysis</td><td>A</td><td><a href="https://github.com/jacobdineen/syracuse/tree/master/Scripting%20for%20Data%20Analysis/FinalProject">Built Software for Webscraping and Hall of Fame prediction from BaseballReference</a></td></tr>
         <tr><td>Syracuse University</td><td>Information Policy</td><td>A</td><td><a href="https://github.com/jacobdineen/syracuse/tree/master/Information%20Policy/Assignments">Wrote Various Essay Pertaining to Information Policy and Data Ethics</a></td></tr>
@@ -71,16 +71,16 @@ I have completed the following graduate courses as of August 2023.
     document.addEventListener('DOMContentLoaded', () => {
       // Get all the filter input elements
       const filters = document.querySelectorAll('.filter');
-  
+
       // Add an event listener to each filter input
       filters.forEach(filter => {
         filter.addEventListener('input', (e) => {
           const column = e.target.dataset.column; // Get the column number from data-column attribute
           const value = e.target.value.toLowerCase(); // Get the value from the input
-  
+
           // Get all the table rows
           const rows = document.querySelectorAll('tbody tr');
-  
+
           // Show or hide rows based on the filter value
           rows.forEach(row => {
             const cell = row.cells[column].innerText.toLowerCase(); // Get the text from the cell in the filtered column
@@ -94,4 +94,3 @@ I have completed the following graduate courses as of August 2023.
       });
     });
   </script>
-  
